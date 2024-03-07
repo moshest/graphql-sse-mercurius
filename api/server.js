@@ -2,7 +2,7 @@ import Fastify from "fastify";
 import { createHandler } from "graphql-sse";
 import mercurius from "mercurius";
 
-import { schema } from "./schema.js";
+import { schema } from "../schema.js";
 
 // Create the GraphQL over SSE handler
 const handler = createHandler({ schema });
